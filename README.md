@@ -18,6 +18,7 @@ Broadly we are going to:
 ### CureCoin Wallet Compilation (Assuming that you want the Qt GUI)
 Per the build instructions, you are going to have to install some dependencies for Cure Coin. 
 <code>
+
 sudo apt-get install git qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libssl-dev libminiupnpc-dev libdb5.3++-dev dh-make build-essential
 
 git clone https://github.com/cygnusxi/CurecoinSource.git
@@ -25,6 +26,7 @@ git clone https://github.com/cygnusxi/CurecoinSource.git
 cd ./Curecoin*
 
 qmake && make
+
 </code>
 You can then try launching the wallet with  
 <code>
