@@ -19,14 +19,18 @@ Broadly we are going to:
 Per the build instructions, you are going to have to install some dependencies for Cure Coin. 
 <code>
 sudo apt-get install git qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libssl-dev libminiupnpc-dev libdb5.3++-dev dh-make build-essential
+
 git clone https://github.com/cygnusxi/CurecoinSource.git
+
 cd ./Curecoin*
+
 qmake && make
 </code>
-You can then try launching the wallet with 
+You can then try launching the wallet with  
 <code>
 ./Curecoin*/curecoin-qt
 </code>
+
 Allow it to sync the blockchain (fairly small in 02/2018) and then be sure to Encrypt the wallet. 
 Once encrypted, go ahead and take note of the automatic address in the Receiving section. You'll need this later. 
 
