@@ -7,6 +7,7 @@ this is for you. If you do not have a GPU, you could still follow these steps, b
 
 Broadly we are going to:
 * Compile the CureCoin wallet and record our address (after installing dependencies)
+* Install the proprietary Nvidia Video Card Driver
 * Install Folding@Home 
 * Install CUDA (Nvidia specific)
 * Launch Folding@Home manually, verifying that the GPU was detected
